@@ -28,7 +28,7 @@ boxSize.addEventListener("click", () => {
     } else {
         const element = document.createElement("p")
 
-        element.innerHTML = "Number of boxes is too big"
+        element.innerHTML = "A grid cannot be made with the number  you have provided"
 
         container.appendChild(element)
     }
