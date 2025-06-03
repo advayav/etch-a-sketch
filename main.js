@@ -1,4 +1,3 @@
-
 const boxSize = document.getElementById("size")
 const container = document.getElementById("container")
 
@@ -30,7 +29,7 @@ boxSize.addEventListener("click", () => {
         const element = document.createElement("p")
 
         element.innerHTML = "Number of boxes is too big"
-        
+
         container.appendChild(element)
     }
 
